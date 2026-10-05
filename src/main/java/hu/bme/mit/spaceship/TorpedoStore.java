@@ -39,7 +39,7 @@ public class TorpedoStore {
 
     if (r >= FAILURE_RATE) {
       // successful firing
-      this.torpedoCount -= numberOfTorpedos;
+      this.torpedoCount -= numberOfTorpedos;//neptun ax6leu
       success = true;
     } else {
       // simulated failure
